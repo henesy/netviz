@@ -2,3 +2,17 @@ Add (n)curses interface...possibly out of dialog(1)?
 Reduce lag time
 Port to a TCL/Tk interface
 Slash and burn pygame 
+
+
+File/programming structure:
+
+netviz_tools.py  # All functions that do network manipulation.
+
+netviz.py  # UI file, creates UI and calls functions inside netviz_tools.
+
+netviz_tools_win.py
+netviz_tools_linux.py  # Modify netviz_tools to call functions in these three files when needed.
+netviz_tools_osx.py  # These files have only platform specific code.
+
+build.sh/bat/py  # a file that does all the stuff required to create redistributable.
+
