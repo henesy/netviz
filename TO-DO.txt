@@ -1,0 +1,4 @@
+Add (n)curses interface...possibly out of dialog(1)?
+Reduce lag time
+Port to a TCL/Tk interface
+Slash and burn pygame 
