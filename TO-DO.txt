@@ -3,6 +3,8 @@ Reduce lag time
 Port to a TCL/Tk interface
 Slash and burn pygame 
 
+Known Bugs:
+On Linux, fix MAC Address resolution/grabbing
 
 File/programming structure:
 
